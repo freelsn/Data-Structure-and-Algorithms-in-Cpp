@@ -1,0 +1,167 @@
+# Sorting Algorithms
+
+- bubble sort: $\Omega (n)$, $O(n^2)$
+- selection sort: $\Omega (n^2)$, $O(n^2)$
+- insertion sort: $\Omega (n)$, $O(n^2)$
+- merge sort: $\Omega (nlog(n))$, $O(nlog(n))$
+- quick sort: $\Omega (nlog(n))$, $O(n^2)$
+
+<hr />
+
+```
+[bubble sort] The number of comparison is: 95
+[bubble sort] The number of swap is: 44
+========================================
+[selection sort] The number of comparison is: 105
+[selection sort] The number of swap is: 10
+========================================
+[insertion sort] The number of comparison is: 44
+[insertion sort] The number of insertion is: 11
+========================================
+[merge sort] The number of comparison is: 43
+[merge sort] The number of assignment is: 59
+========================================
+[quick sort] The number of comparison is: 45
+[quick sort] The number of swap is: 23
+========================================
+The original array is
+3 44 38 5 47 15 36 26 27 2 46 4 19 50 48
+After bubble sort
+2 3 4 5 15 19 26 27 36 38 44 46 47 48 50
+After selection sort
+2 3 4 5 15 19 26 27 36 38 44 46 47 48 50
+After insertion sort
+2 3 4 5 15 19 26 27 36 38 44 46 47 48 50
+After merge sort
+2 3 4 5 15 19 26 27 36 38 44 46 47 48 50
+After quick sort
+2 3 4 5 15 19 26 27 36 38 44 46 47 48 50
+```
+
+<hr />
+
+```
+[bubble sort] The number of comparison is: 105
+[bubble sort] The number of swap is: 105
+========================================
+[selection sort] The number of comparison is: 105
+[selection sort] The number of swap is: 7
+========================================
+[insertion sort] The number of comparison is: 105
+[insertion sort] The number of insertion is: 14
+========================================
+[merge sort] The number of comparison is: 28
+[merge sort] The number of assignment is: 59
+========================================
+[quick sort] The number of comparison is: 105
+[quick sort] The number of swap is: 70
+========================================
+The original array is
+50 48 47 46 44 38 36 27 26 19 15 5 4 3 2
+After bubble sort
+2 3 4 5 15 19 26 27 36 38 44 46 47 48 50
+After selection sort
+2 3 4 5 15 19 26 27 36 38 44 46 47 48 50
+After insertion sort
+2 3 4 5 15 19 26 27 36 38 44 46 47 48 50
+After merge sort
+2 3 4 5 15 19 26 27 36 38 44 46 47 48 50
+After quick sort
+2 3 4 5 15 19 26 27 36 38 44 46 47 48 50
+```
+
+<hr />
+
+```
+[bubble sort] The number of comparison is: 14
+[bubble sort] The number of swap is: 0
+========================================
+[selection sort] The number of comparison is: 105
+[selection sort] The number of swap is: 0
+========================================
+[insertion sort] The number of comparison is: 14
+[insertion sort] The number of insertion is: 0
+========================================
+[merge sort] The number of comparison is: 31
+[merge sort] The number of assignment is: 59
+========================================
+[quick sort] The number of comparison is: 105
+[quick sort] The number of swap is: 14
+========================================
+The original array is
+2 3 4 5 15 19 26 27 36 38 44 46 47 48 50
+After bubble sort
+2 3 4 5 15 19 26 27 36 38 44 46 47 48 50
+After selection sort
+2 3 4 5 15 19 26 27 36 38 44 46 47 48 50
+After insertion sort
+2 3 4 5 15 19 26 27 36 38 44 46 47 48 50
+After merge sort
+2 3 4 5 15 19 26 27 36 38 44 46 47 48 50
+After quick sort
+2 3 4 5 15 19 26 27 36 38 44 46 47 48 50
+```
+
+<hr />
+
+```
+[bubble sort] The number of comparison is: 0
+[bubble sort] The number of swap is: 0
+========================================
+[selection sort] The number of comparison is: 0
+[selection sort] The number of swap is: 0
+========================================
+[insertion sort] The number of comparison is: 0
+[insertion sort] The number of insertion is: 0
+========================================
+[merge sort] The number of comparison is: 0
+[merge sort] The number of assignment is: 0
+========================================
+[quick sort] The number of comparison is: 0
+[quick sort] The number of swap is: 0
+========================================
+The original array is
+
+After bubble sort
+
+After selection sort
+
+After insertion sort
+
+After merge sort
+
+After quick sort
+
+```
+
+<hr />
+
+```
+[bubble sort] The number of comparison is: 0
+[bubble sort] The number of swap is: 0
+========================================
+[selection sort] The number of comparison is: 0
+[selection sort] The number of swap is: 0
+========================================
+[insertion sort] The number of comparison is: 0
+[insertion sort] The number of insertion is: 0
+========================================
+[merge sort] The number of comparison is: 0
+[merge sort] The number of assignment is: 0
+========================================
+[quick sort] The number of comparison is: 0
+[quick sort] The number of swap is: 0
+========================================
+The original array is
+3
+After bubble sort
+3
+After selection sort
+3
+After insertion sort
+3
+After merge sort
+3
+After quick sort
+3
+```
